@@ -35,7 +35,7 @@ stages:
     pool:
       vmImage: 'ubuntu-20.04'
     variables:
-    - group: Release
+    - group: ReleaseDocker
     steps:
     - task: AzureWebAppContainer@1
       inputs:
